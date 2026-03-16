@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clear Property Demo</title>
+
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        /* Floating boxes */
+        .left {
+            float: right;
+            background: steelblue;
+        }
+
+        .right {
+            float: left;
+            background: tomato;
+        }
+
+        /* Clear examples */
+        .clear-left {
+            clear: left;
+            background: green;
+        }
+
+        .clear-right {
+            clear: right;
+            background: purple;
+        }
+
+        .clear-both {
+            clear: both;
+            background: orange;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box left">Float Left</div>
+    <div class="box right">Float Right</div>
+
+    <div class="box clear-left">clear: left</div>
+    <div class="box clear-right">clear: right</div>
+    <div class="box clear-both">clear: both</div>
+
+</body>
+
+</html>
