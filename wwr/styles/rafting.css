@@ -56,6 +56,10 @@ article {
     height: 125px;
 }
 
+.hero article {
+    position: absolute;
+}
+
 nav,
 p,
 section,
@@ -83,6 +87,7 @@ p {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 nav {
