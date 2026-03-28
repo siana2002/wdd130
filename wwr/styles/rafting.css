@@ -94,22 +94,17 @@ section img {
     margin: 0 auto
 }
 
-.history-section {
+.history {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
     gap: 2em;
 }
 
-.history-content {
-    display: flex;
-    gap: 50px;
-    align-items: flex-start;
-}
-
-.history-content img {
-    width: 300px;
-    height: auto;
+.history h2 {
+    grid-column: 1/4;
+    text-align: center;
 }
 
 section {
@@ -122,11 +117,13 @@ section {
 .images {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    align-items: center;
     gap: 1em;
     padding: 2rem;
 }
 
 .images h2 {
+    grid-column: 1/6;
     text-align: center;
     margin-top: 1.5rem;
 }
