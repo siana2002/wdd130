@@ -33,6 +33,12 @@ header {
     align-items: center;
 }
 
+.navigation nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
