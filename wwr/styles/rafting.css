@@ -17,7 +17,7 @@ header {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
-    padding: 1re 2rem;
+    padding: 1rem 2rem;
 }
 
 .navigation img {
@@ -111,7 +111,7 @@ section {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    padding: 1re 2rem;
+    padding: 1rem 2rem;
 }
 
 .images {
