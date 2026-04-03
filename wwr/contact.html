@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rapid Rafting</title>
+    <meta name="description"
+      content="Rapid Rafting designed with forms and information for contacting and placing inquires about the company">
+    <meta name="author" content="Douglas Tangi">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/z-crossedoars.jpeg" alt="WWR Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="company-information">
+            <h2>White Water Rafting Company</h2>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 999</p>
+            <p>info@whitewater.com</p>
+        </div>
+
+        <div class="map">
+            <iframe class="map-size"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108823.47793514027!2d145.32384510408968!3d-38.34172349902199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1775198008418!5m2!1sen!2sau"
+              width="400" height="535" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form>
+                <fieldset>
+                    <div class="form-item column2">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="username">Email:</label>
+                        <input type="email" id="username" name="username" placeholder="Placeholder"
+                          required>
+                    </div>
+                    <div class="purpose">
+                        <p>Message Purpose</p>
+                        <div class="selections">
+                            <input type="radio" id="Inquiry" name="Inquiry">
+                            <label for="Inquiry">General Inquiry</label>
+
+                            <input type="radio" id="Question" name="Question">
+                            <label for="Question">Reservation Question</label>
+
+                            <input type="radio" id="Suggestion" name="Suggestion">
+                            <label for="Suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message" rows="4"
+                          placeholder="Type here"></textarea>
+                    </div>
+                    <div class="form-item column1">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <section class="images">
+            <h2>We Are Here To Serve You</h2>
+            <figure>
+                <img src="images/the-rock.jpeg" alt="Employees working together">
+                <figcaption>Dwayne Johnson</figcaption>
+            </figure>
+            <figure>
+                <img src="images/kevin-hart.jpeg" alt="Employees working together">
+                <figcaption>Kevin Hart</figcaption>
+            </figure>
+            <figure>
+                <img src="images/dave-batista.jpeg" alt="Employees working together">
+                <figcaption>Dave Batista</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 | Rapid Rafting | Douglas Tangi</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="instagram Icon">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok.svg" alt="Tiktok Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
