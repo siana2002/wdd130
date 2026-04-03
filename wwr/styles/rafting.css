@@ -199,6 +199,10 @@ footer {
     font-weight: 700;
 }
 
+.company-information h1 {
+    background-color: transparent;
+}
+
 .company-information p {
     line-height: 0;
 }
@@ -216,7 +220,6 @@ form {
     padding: 10px;
     background-color: white;
     display: grid;
-    height: px;
 }
 
 fieldset {
@@ -260,6 +263,10 @@ input {
 .purpose {
     display: flex;
     align-items: center;
+}
+
+.purpose p {
+    margin-left: -9px;
 }
 
 textarea {
