@@ -425,3 +425,19 @@ h2 {
 .contact {
     padding-left: 15px;
 }
+
+.contact-us {
+    display: flex;
+    font-size: larger;
+}
+
+.contact-us nav {
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 150px;
+    justify-content: center;
+}
