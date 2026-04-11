@@ -297,6 +297,7 @@ button {
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    position: relative;
 }
 
 nav {
@@ -356,4 +357,51 @@ section figure {
 
 .explanation {
     width: 850px;
+}
+
+/* Trips Page CSS Styles */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.trips {
+    text-align: center;
+    padding: 5px;
+}
+
+.trips img {
+    max-width: 0 auto;
+    padding: 10px;
+}
+
+.table {
+    display: flex;
+    padding: 15px;
+    width: 850px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: lightblue;
+    color: black;
+    font-weight: 700;
+}
+
+h2 {
+    padding: 5px;
+    margin: 0 auto;
+    font-size: x-large;
+}
+
+.contact {
+    padding-left: 15px;
 }
