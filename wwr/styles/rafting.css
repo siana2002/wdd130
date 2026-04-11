@@ -58,7 +58,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.75;
-    background-color: none;
+    background-color: transparent;
     color: var(--secondary-color);
 }
 
@@ -322,7 +322,7 @@ nav {
     font-size: xx-large;
     align-content: center;
     position: absolute;
-    background-color: none;
+    background-color: transparent;
     color: blanchedalmond;
 }
 
@@ -393,7 +393,7 @@ section {
 }
 
 .trips img {
-    max-width: 0 auto;
+    max-width: auto;
     padding: 10px;
 }
 
