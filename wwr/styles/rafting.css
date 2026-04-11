@@ -393,7 +393,7 @@ section {
 }
 
 .trips img {
-    max-width: auto;
+    width: auto;
     padding: 10px;
 }
 
