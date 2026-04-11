@@ -170,10 +170,6 @@ footer {
     text-align: center;
 }
 
-footer p {
-    padding-top: 90px;
-}
-
 .socialmedia {
     display: flex;
     gap: 1rem;
@@ -295,6 +291,10 @@ button {
     border-radius: 5px;
     margin-right: 25px;
     margin-left: 0;
+}
+
+footer p {
+    padding-top: 90px;
 }
 
 /* Index/Home Page CSS Styles */
