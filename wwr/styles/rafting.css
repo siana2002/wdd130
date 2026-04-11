@@ -363,6 +363,22 @@ section figure {
     width: 850px;
 }
 
+.journey {
+    display: flex;
+    font-size: larger;
+}
+
+.journey nav {
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 150px;
+    justify-content: center;
+}
+
 /* Trips Page CSS Styles */
 section {
     display: grid;
