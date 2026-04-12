@@ -310,6 +310,10 @@ nav {
     padding-top: 60px;
 }
 
+.profile {
+    position: relative;
+}
+
 .profile img {
     display: block;
     width: 100%;
@@ -318,12 +322,13 @@ nav {
 }
 
 .profile h1 {
-    padding-top: 190px;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
     font-size: xx-large;
-    align-content: center;
-    position: absolute;
     background-color: transparent;
-    color: blanchedalmond;
+    color: rgb(56, 167, 203);
 }
 
 fieldset {
@@ -390,11 +395,6 @@ section {
 .trips {
     text-align: center;
     padding: 5px;
-}
-
-.trips img {
-    width: auto;
-    padding: 10px;
 }
 
 .table {
